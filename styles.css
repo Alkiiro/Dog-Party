@@ -1,0 +1,227 @@
+/* Given Assets
+Light Blue: #75e2e6
+Dark Blue: #048eaa
+Background Color: #ffffff
+White Text: #ffffff
+Body Text: #000000
+Font: Open Sans, 400, 600, 700 */
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  /* border: .1px solid red; */
+}
+
+/* TOP OF PAGE NAVIGATION */
+
+.topbar {
+  box-sizing: border-box;
+  height: 10vh;
+  background-color: #75e2e6;
+  border-bottom-width: .2vh;
+  border-bottom-style: solid;
+  border-bottom-color: #048eaa;
+}
+
+.topbarlinks {
+  box-sizing: border-box;
+  float: right;
+  height: 10vh;
+  padding-top: 3.4vh;
+  font-size: 2em;
+}
+
+.dogicon-i {
+  display: inline-block;
+  float: left;
+  margin: .8vh 0vw 0vh .2vw;
+  padding: .7vh 1vw;
+  height: 8vh;
+}
+
+.howtodog-l, .whatisdogs-l, .factsfromdog-l {
+  display: inline;
+  padding: 4px;
+  margin-top: 2vh;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000000;
+}
+
+.howtodog-l {
+  margin-left: 1.5vw;
+  margin-right: 1.5vw
+}
+
+.factsfromdog-l {
+  margin-right: 1.5vw;
+  margin-left: 1.5vw;
+}
+
+/* FORM AND LAYERED ELEMENTS */
+
+.formdog-sec {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)),
+      url(images/park.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: absolute;
+  text-align: center;
+}
+
+.asiteaboutsomedogs-p {
+  font-weight: 400;
+  font-size: 8em;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.somedogs-bold {
+  font-weight: 700;
+}
+
+.formdog-i {
+  display: block;
+  margin: auto;
+  height: 18%;
+  width: 18%;
+  border: .4vh solid #048eaa;
+  border-radius: 100%;
+}
+
+.namedog-f {
+  display: inline-block;
+  margin: auto;
+  height: 100%;
+  width: 34vw;
+}
+
+.namedog-title {
+  display: block;
+  text-align: left;
+  margin: 4vh 0vw 1vh 0vw;
+  font-weight: 400;
+  font-size: 2.9em;
+  color: #ffffff;
+}
+
+.namedog-in {
+  display: block;
+  margin: 0vh 0vw 2.5vh 0vw;
+  border: 0;
+  border-radius: 1px;
+  padding: 1vh;
+  padding-left: .3vw;
+  font-size: 2.3em;
+  height: 6vh;
+  width: 100%;
+}
+
+.namedog-but {
+  display: block;
+  margin: 0vh 0vw 3vh 0vw;
+  border: 0;
+  border-radius: 1px;
+  height: 6vh;
+  width: 100%;
+  background-color: #75e2e6;
+  font-size: 3.2em;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* DOG INFORMATION COLUMNS */
+
+.howtodog-sec {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.howtodog-art, .whatisdogs-art, .factsfromdog-art {
+  display: inline-block;
+  text-align: center;
+  width: 32%;
+  padding: 0% 2%;
+}
+
+#howtodog-h, #whatisdogs-h, #factsfromdog-h {
+  display: block;
+  margin: auto;
+  font-size: 6em;
+  height: 5vh;
+  padding: 4vh;
+}
+
+.howtodog-i, .whatisdogs-i, .factsfromdog-i {
+  display: block;
+  margin: 4.5vh auto;
+  height: 60%;
+  width: 60%;
+  border: .4vh solid #048eaa;
+  border-radius: 100%;
+}
+
+.howtodog-p, .whatisdogs-p, .factsfromdog-p {
+  text-align: left;
+  margin: auto;
+  font-size: 2.7em;
+  height: 30vh;
+  width: 100%;
+}
+
+.howtodog-but, .whatisdogs-but, .factsfromdog-but {
+  display: block;
+  border: 0;
+  border-radius: 1px;
+  height: 6vh;
+  width: 100%;
+  margin: 3vh 0vw 5vh 0vw;
+  background-color: #048eaa;
+  font-size: 1.5em;
+  font-weight: 600;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* BOTTOM OF PAGE NAVIGATION */
+
+.bottombar {
+  box-sizing: border-box;
+  height: 20vh;
+  background-color: #048eaa;
+  border: 0;
+  text-align: center;
+}
+
+.bottombar-p {
+  color: #ffffff;
+  font-size: 3em;
+  height: 30%;
+  margin: 0vh 0vw 2vh 0vw;
+  padding: 60px 0px 0px 0px;
+
+}
+
+.bottombarlinks {
+}
+
+.twitter-l, .instagram-l, .facebook-l, .linkedin-l {
+  display: inline-block;
+  margin: 0vh .7vw 0vh .7vw;
+  height: 5vh;
+  width: 5vh;
+}
+
+.twitter-i, .instagram-i, .facebook-i, .linkedin-i {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
